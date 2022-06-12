@@ -1,15 +1,15 @@
 {
-  "files": {
-    "main.css": "/FinalDash/static/css/main.fed3ed47.css",
-    "main.js": "/FinalDash/static/js/main.87ad03fc.js",
-    "static/js/787.ec12971b.chunk.js": "/FinalDash/static/js/787.ec12971b.chunk.js",
-    "index.html": "/FinalDash/index.html",
-    "main.fed3ed47.css.map": "/FinalDash/static/css/main.fed3ed47.css.map",
-    "main.87ad03fc.js.map": "/FinalDash/static/js/main.87ad03fc.js.map",
-    "787.ec12971b.chunk.js.map": "/FinalDash/static/js/787.ec12971b.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.fed3ed47.css",
-    "static/js/main.87ad03fc.js"
-  ]
+  "main.css": "/FinalDash/static/css/main.df8b2067.chunk.css",
+  "main.js": "/FinalDash/static/js/main.91319251.chunk.js",
+  "main.js.map": "/FinalDash/static/js/main.91319251.chunk.js.map",
+  "static/js/1.ce47ab81.chunk.js": "/FinalDash/static/js/1.ce47ab81.chunk.js",
+  "static/js/1.ce47ab81.chunk.js.map": "/FinalDash/static/js/1.ce47ab81.chunk.js.map",
+  "static/js/2.c0b77295.chunk.js": "/FinalDash/static/js/2.c0b77295.chunk.js",
+  "static/js/2.c0b77295.chunk.js.map": "/FinalDash/static/js/2.c0b77295.chunk.js.map",
+  "runtime~main.js": "/FinalDash/static/js/runtime~main.b12108fc.js",
+  "runtime~main.js.map": "/FinalDash/static/js/runtime~main.b12108fc.js.map",
+  "static/css/main.df8b2067.chunk.css.map": "/FinalDash/static/css/main.df8b2067.chunk.css.map",
+  "index.html": "/FinalDash/index.html",
+  "precache-manifest.394c0e54c296f9c9ef99cca65e85649d.js": "/FinalDash/precache-manifest.394c0e54c296f9c9ef99cca65e85649d.js",
+  "service-worker.js": "/FinalDash/service-worker.js"
 }
