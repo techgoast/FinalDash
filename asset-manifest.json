@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FinalDash/static/css/main.fed3ed47.css",
+    "main.js": "/FinalDash/static/js/main.87ad03fc.js",
+    "static/js/787.ec12971b.chunk.js": "/FinalDash/static/js/787.ec12971b.chunk.js",
+    "index.html": "/FinalDash/index.html",
+    "main.fed3ed47.css.map": "/FinalDash/static/css/main.fed3ed47.css.map",
+    "main.87ad03fc.js.map": "/FinalDash/static/js/main.87ad03fc.js.map",
+    "787.ec12971b.chunk.js.map": "/FinalDash/static/js/787.ec12971b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fed3ed47.css",
+    "static/js/main.87ad03fc.js"
+  ]
+}
