@@ -31,7 +31,7 @@ function MainSection() {
     axios.get("data.json").then(res => dispatch({ type: "all", data: res.data }));
   }, []);
 
-  const hello = (filter) => {
+  const applyFilter = (filter) => {
     dispatch({
       type: "filter",
       data: state.events.filter(ev => {
@@ -73,7 +73,7 @@ function MainSection() {
 
   return (
     <eventsContext.Provider value={state.displayedEvents}>
-      <filterContext.Provider value={hello}>
+      <filterContext.Provider value={applyFilter}>
         <Mainsection>
           <Form />
           <EventsSec />
