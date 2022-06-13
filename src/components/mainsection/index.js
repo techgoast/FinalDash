@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { createContext, useEffect, useReducer, useState } from 'react';
+import React, { createContext, useEffect, useReducer } from 'react';
 import EventsSec from '../EventsSection';
 import Form from '../form';
 import { Mainsection } from './style';
@@ -35,35 +35,36 @@ function MainSection() {
     dispatch({
       type: "filter",
       data: state.events.filter(ev => {
-        if (filter.location == "all" && filter.date == "all" && filter.paytype == "all") {
+        if (filter.location === "all" && filter.date === "all" && filter.paytype === "all") {
           return ev
-        } else if (filter.location != "all") {
-          if (filter.date == "all") {
-            if (filter.paytype == "all") {
-              return ev.location == filter.location
+        } else if (filter.location !== "all") {
+          if (filter.date === "all") {
+            if (filter.paytype === "all") {
+              return ev.location === filter.location
             } else {
-              return ev.location == filter.location && ev.type == filter.paytype
+              return ev.location === filter.location && ev.type === filter.paytype
             }
           } else {
-            if (filter.paytype == "all") {
-              return ev.location == filter.location && ev.date == filter.date
+            if (filter.paytype === "all") {
+              return ev.location === filter.location && ev.date === filter.date
             } else {
-              return ev.location == filter.location && ev.date == filter.date && ev.type == filter.paytype
+              return ev.location === filter.location && ev.date === filter.date && ev.type === filter.paytype
             }
           }
         } else {
-          if (filter.date == "all") {
-            if (filter.paytype != "all") {
-              return ev.type == filter.paytype
+          if (filter.date === "all") {
+            if (filter.paytype !== "all") {
+              return ev.type === filter.paytype
             }
           } else {
-            if (filter.paytype == "all") {
-              return ev.date == filter.date
+            if (filter.paytype === "all") {
+              return ev.date === filter.date
             } else {
-              return ev.date == filter.date && ev.type == filter.paytype
+              return ev.date === filter.date && ev.type === filter.paytype
             }
           }
         }
+        return ev;
       })
     })
   }
