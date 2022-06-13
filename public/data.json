@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "backimg": "/images/1.webp",
+        "backimg": "images/1.webp",
         "imgsrc": "Photo by ICSA: https://www.pexels.com/photo/1709813/",
         "type": "paid",
         "organizer": "rocky mountain roasting co.",
